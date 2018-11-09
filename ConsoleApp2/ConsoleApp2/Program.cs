@@ -258,15 +258,152 @@ class Solution
         return word.Length * maxHeight;
     }
 
+
+    static string angryProfessor(int k, int[] arr)
+    {
+        //k: cancellation threshold
+        //Return YES if class is cancelled
+        int onTime = 0;
+        int late = 0;
+
+        for (int i = 0; i < arr.Length; i++)
+        {
+            if (arr[i] <= 0)
+                onTime += 1;
+            else late += 1;
+        }
+
+            return onTime >= k ? "NO" : "YES";
+
+    }
+
+    static int squares(int a, int b)
+    {
+        var first = Math.Ceiling(Math.Sqrt(a));
+        var last = Math.Floor(Math.Sqrt(b));
+        return Convert.ToInt32((last - first)) + 1;
+    }
+
+    static int utopianTree(int n)
+    {
+        int intial = 1;
+        int cycleCount = 0;
+        bool shouldDouble = true;
+
+
+        while(cycleCount < (n))
+        {
+            if (shouldDouble)
+            {
+                intial = intial * 2;
+            }
+            else intial = intial + 1;
+
+            shouldDouble = !shouldDouble;
+            cycleCount++;
+        }
+
+
+        return intial;
+    }
+
+
+    static int[] circularArrayRotation(int[] a, int k, int[] queries)
+    {
+        //a: initial array
+        //k: number of rotations
+        // queries: positon of the elements
+
+        var afterRotation = new List<int>();
+
+        //Step 1: perform rotation
+        int counter = 0;
+        while (counter < k)
+        {
+            var elementIndex = a.Length - counter - 1;
+            afterRotation.Insert(0, a.ElementAt(elementIndex));
+            counter++;
+        }
+
+
+        var remain = a.Where(e => !afterRotation.Contains(e)).ToList();
+        afterRotation.AddRange(remain);
+
+
+        //Step 2: find the elements query
+        var result = new List<int>();
+
+        foreach(int i in queries)
+          result.Add(afterRotation[i]);
+        
+               
+        return result.ToArray();
+    }
+
+    static string catAndMouse(int x, int y, int z)
+    {
+        //X: cat A
+        //Y: Cat B
+        //Z: Mouse
+
+        var distanceXZ = Math.Abs((Math.Abs(x) - Math.Abs(z)));
+        var distanceYZ = Math.Abs((Math.Abs(y) - Math.Abs(z)));
+
+        var result = "Mouse C";
+
+        if (distanceXZ < distanceYZ)
+            result = "Cat A";
+
+        if(distanceYZ < distanceXZ)
+            result = "Cat B";
+
+        return result;
+
+    }
+
+    static int findMedian(int[] arr)
+    {
+
+        var lenght = arr.Length;
+
+        var list = arr.ToList();
+
+        list.Sort();
+
+        var medianPosition = Math.Floor((decimal)lenght / 2);
+
+        return list[(int)medianPosition];
+    }
+
+    static int introTutorial(int V, int[] arr)
+    {
+        int position = 0;
+        var searchElementfound = false;
+
+        while ((position < arr.Length) && !searchElementfound)
+        {
+            if (arr[position] == V)
+                searchElementfound = true;
+
+            position++;
+        }
+
+
+
+        return position-1;
+    }
+
+
     static void Main(string[] args)
     {
-        int n = 1012;
-        var str = "1 3 1 3 1 4 1 3 2 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5";
-        int[] ar = Array.ConvertAll(str.Split(' '), arTemp => Convert.ToInt32(arTemp));
+        int k = 4;
+        var str = "0 1 2 4 6 5 3";
+        int[] arr = Array.ConvertAll(str.Split(' '), arTemp => Convert.ToInt32(arTemp));
+        var s = new List<int>() {0,1,2 };
 
-        var word = "abc";
 
-        var result = designerPdfViewer(ar, word);
+        //var result = squares(100,1000);
+        var result = introTutorial(k, arr);       
         Console.WriteLine(result);
 
 
