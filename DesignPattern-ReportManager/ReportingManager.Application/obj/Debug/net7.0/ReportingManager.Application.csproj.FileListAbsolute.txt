@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\bin\Debug\net7.0\ReportingManager.Application.deps.json
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\bin\Debug\net7.0\ReportingManager.Application.dll
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\bin\Debug\net7.0\ReportingManager.Application.pdb
@@ -15,3 +16,5 @@ C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\Re
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\refint\ReportingManager.Application.dll
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\ReportingManager.Application.pdb
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\ref\ReportingManager.Application.dll
+=======
+>>>>>>> 0edfd20171532afc75417c746377935c6a279392
