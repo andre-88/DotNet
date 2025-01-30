@@ -1,11 +1,16 @@
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\bin\Debug\net7.0\ReportingManager.Application.deps.json
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\bin\Debug\net7.0\ReportingManager.Application.dll
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\bin\Debug\net7.0\ReportingManager.Application.pdb
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\bin\Debug\net7.0\ReportingManager.Core.dll
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\bin\Debug\net7.0\ReportingManager.Infrastructure.dll
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\bin\Debug\net7.0\ReportingManager.Core.pdb
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\bin\Debug\net7.0\ReportingManager.Infrastructure.pdb
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\ReportingManager.Application.csproj.AssemblyReference.cache
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\ReportingManager.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\ReportingManager.Application.AssemblyInfoInputs.cache
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\ReportingManager.Application.AssemblyInfo.cs
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\ReportingManager.Application.csproj.CoreCompileInputs.cache
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\ReportingManager.Application.csproj.CopyComplete
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\ReportingManager.Application.dll
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\refint\ReportingManager.Application.dll
 C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Application\obj\Debug\net7.0\ReportingManager.Application.pdb

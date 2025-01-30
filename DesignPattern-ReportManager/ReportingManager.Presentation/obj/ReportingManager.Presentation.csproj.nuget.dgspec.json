@@ -4,6 +4,172 @@
     "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Presentation\\ReportingManager.Presentation.csproj": {}
   },
   "projects": {
+    "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\ReportingManager.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\ReportingManager.Application.csproj",
+        "projectName": "ReportingManager.Application",
+        "projectPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\ReportingManager.Application.csproj",
+        "packagesPath": "C:\\Users\\abizetto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abizetto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Core\\ReportingManager.Core.csproj": {
+                "projectPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Core\\ReportingManager.Core.csproj"
+              },
+              "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Infrastructure\\ReportingManager.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Infrastructure\\ReportingManager.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Core\\ReportingManager.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Core\\ReportingManager.Core.csproj",
+        "projectName": "ReportingManager.Core",
+        "projectPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Core\\ReportingManager.Core.csproj",
+        "packagesPath": "C:\\Users\\abizetto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abizetto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Infrastructure\\ReportingManager.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Infrastructure\\ReportingManager.Infrastructure.csproj",
+        "projectName": "ReportingManager.Infrastructure",
+        "projectPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Infrastructure\\ReportingManager.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\abizetto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abizetto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Presentation\\ReportingManager.Presentation.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -25,7 +191,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\ReportingManager.Application.csproj": {
+                "projectPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\ReportingManager.Application.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

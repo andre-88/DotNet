@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "ReportingManager.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ReportingManager.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportingManager.Core.dll": {}
+        }
+      },
+      "ReportingManager.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ReportingManager.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportingManager.Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ReportingManager.Core/1.0.0": {
+      "type": "project",
+      "path": "../ReportingManager.Core/ReportingManager.Core.csproj",
+      "msbuildProject": "../ReportingManager.Core/ReportingManager.Core.csproj"
+    },
+    "ReportingManager.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ReportingManager.Infrastructure/ReportingManager.Infrastructure.csproj",
+      "msbuildProject": "../ReportingManager.Infrastructure/ReportingManager.Infrastructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "ReportingManager.Core >= 1.0.0",
+      "ReportingManager.Infrastructure >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\abizetto\\.nuget\\packages\\": {}
@@ -31,7 +66,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Core\\ReportingManager.Core.csproj": {
+              "projectPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Core\\ReportingManager.Core.csproj"
+            },
+            "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Infrastructure\\ReportingManager.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Infrastructure\\ReportingManager.Infrastructure.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

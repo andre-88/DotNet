@@ -1,11 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "ReportingManager.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "ReportingManager.Core": "1.0.0",
+          "ReportingManager.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ReportingManager.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportingManager.Application.dll": {}
+        }
+      },
+      "ReportingManager.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ReportingManager.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportingManager.Core.dll": {}
+        }
+      },
+      "ReportingManager.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ReportingManager.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ReportingManager.Infrastructure.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ReportingManager.Application/1.0.0": {
+      "type": "project",
+      "path": "../ReportingManager.Application/ReportingManager.Application.csproj",
+      "msbuildProject": "../ReportingManager.Application/ReportingManager.Application.csproj"
+    },
+    "ReportingManager.Core/1.0.0": {
+      "type": "project",
+      "path": "../ReportingManager.Core/ReportingManager.Core.csproj",
+      "msbuildProject": "../ReportingManager.Core/ReportingManager.Core.csproj"
+    },
+    "ReportingManager.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../ReportingManager.Infrastructure/ReportingManager.Infrastructure.csproj",
+      "msbuildProject": "../ReportingManager.Infrastructure/ReportingManager.Infrastructure.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "ReportingManager.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\abizetto\\.nuget\\packages\\": {}
@@ -31,7 +84,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\ReportingManager.Application.csproj": {
+              "projectPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\ReportingManager.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

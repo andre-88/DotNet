@@ -14,7 +14,9 @@ namespace ReportingManager
         {
             Console.WriteLine(".........");
             Console.WriteLine(">>> END");
-            Console.WriteLine("......... Test 70");
+            Console.WriteLine("......... Test 100");
+            ReportManagerBO bo = new ReportManagerBO(1,"My Report","andre");
+            Console.WriteLine(bo.GenerateReport());
             //var input = Console.ReadKey();
         }
     }

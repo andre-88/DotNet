@@ -7,14 +7,51 @@
   "targets": {
     ".NETCoreApp,Version=v7.0": {
       "ReportingManager.Presentation/1.0.0": {
+        "dependencies": {
+          "ReportingManager.Application": "1.0.0"
+        },
         "runtime": {
           "ReportingManager.Presentation.dll": {}
+        }
+      },
+      "ReportingManager.Application/1.0.0": {
+        "dependencies": {
+          "ReportingManager.Core": "1.0.0",
+          "ReportingManager.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "ReportingManager.Application.dll": {}
+        }
+      },
+      "ReportingManager.Core/1.0.0": {
+        "runtime": {
+          "ReportingManager.Core.dll": {}
+        }
+      },
+      "ReportingManager.Infrastructure/1.0.0": {
+        "runtime": {
+          "ReportingManager.Infrastructure.dll": {}
         }
       }
     }
   },
   "libraries": {
     "ReportingManager.Presentation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReportingManager.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReportingManager.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ReportingManager.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
