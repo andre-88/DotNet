@@ -1,0 +1,12 @@
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\bin\Debug\net7.0\ReportingManager.Core.deps.json
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\bin\Debug\net7.0\ReportingManager.Core.dll
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\bin\Debug\net7.0\ReportingManager.Core.pdb
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\obj\Debug\net7.0\ReportingManager.Core.csproj.AssemblyReference.cache
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\obj\Debug\net7.0\ReportingManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\obj\Debug\net7.0\ReportingManager.Core.AssemblyInfoInputs.cache
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\obj\Debug\net7.0\ReportingManager.Core.AssemblyInfo.cs
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\obj\Debug\net7.0\ReportingManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\obj\Debug\net7.0\ReportingManager.Core.dll
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\obj\Debug\net7.0\refint\ReportingManager.Core.dll
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\obj\Debug\net7.0\ReportingManager.Core.pdb
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Core\obj\Debug\net7.0\ref\ReportingManager.Core.dll

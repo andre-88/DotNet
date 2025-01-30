@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\ReportingManager.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\ReportingManager.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\ReportingManager.Application.csproj",
+        "projectName": "ReportingManager.Application",
+        "projectPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\ReportingManager.Application.csproj",
+        "packagesPath": "C:\\Users\\abizetto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abizetto\\Documents\\Pessoal\\Github\\DotNet\\DesignPattern-ReportManager\\ReportingManager.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\abizetto\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\bin\Debug\net7.0\ReportingManager.Presentation.exe
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\bin\Debug\net7.0\ReportingManager.Presentation.deps.json
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\bin\Debug\net7.0\ReportingManager.Presentation.runtimeconfig.json
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\bin\Debug\net7.0\ReportingManager.Presentation.dll
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\bin\Debug\net7.0\ReportingManager.Presentation.pdb
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\obj\Debug\net7.0\ReportingManager.Presentation.csproj.AssemblyReference.cache
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\obj\Debug\net7.0\ReportingManager.Presentation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\obj\Debug\net7.0\ReportingManager.Presentation.AssemblyInfoInputs.cache
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\obj\Debug\net7.0\ReportingManager.Presentation.AssemblyInfo.cs
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\obj\Debug\net7.0\ReportingManager.Presentation.csproj.CoreCompileInputs.cache
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\obj\Debug\net7.0\ReportingManager.Presentation.dll
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\obj\Debug\net7.0\refint\ReportingManager.Presentation.dll
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\obj\Debug\net7.0\ReportingManager.Presentation.pdb
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\obj\Debug\net7.0\ReportingManager.Presentation.genruntimeconfig.cache
+C:\Users\abizetto\Documents\Pessoal\Github\DotNet\DesignPattern-ReportManager\ReportingManager.Presentation\obj\Debug\net7.0\ref\ReportingManager.Presentation.dll
