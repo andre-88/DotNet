@@ -14,7 +14,7 @@ namespace ReportingManager
         {
             Console.WriteLine(".........");
             Console.WriteLine(">>> END");
-            Console.WriteLine("......... Test 70");
+            Console.WriteLine("......... Test 8");
             //var input = Console.ReadKey();
         }
     }
