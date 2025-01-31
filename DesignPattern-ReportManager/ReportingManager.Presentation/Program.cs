@@ -14,18 +14,17 @@ namespace ReportingManager
         static void Main(string[] args)
         {
             //PHASE 1: Basic Steps
-            Console.WriteLine("....................");
-            Console.WriteLine("... " + DateTime.Now);
-            ReportManagerService service = new ReportManagerService(1,"My Report","andre");
-            Console.WriteLine(service.GenerateReport());
-            Console.WriteLine("....................");
+            //Console.WriteLine("....................");
+            //Console.WriteLine("... " + DateTime.Now);
+            //ReportManagerService service = new ReportManagerService(1,"My Report","andre");
+            //Console.WriteLine(service.GenerateReport());
+            //Console.WriteLine("....................");
 
 
             //PHASE 2:  DI Steps
             // Set up the dependency injection container
             var serviceProvider = new ServiceCollection()
                 .AddSingleton<IReportManagerService, ReportManagerService>() // Registering the service
-                
                 .BuildServiceProvider();
 
             // Resolving the ReportManager instance
@@ -34,7 +33,7 @@ namespace ReportingManager
             Console.WriteLine(result);
 
 
-            Console.WriteLine(".........END...........");
+            Console.WriteLine(".........Full END...........");
         }
     }
 }
